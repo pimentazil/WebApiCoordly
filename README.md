@@ -1,4 +1,5 @@
-API de Gerenciamento de Produtos
+#API de Gerenciamento de Produtos
+
 Uma API simples para gerenciamento de produtos, com operações CRUD (Criar, Ler, Atualizar e Deletar). Desenvolvida com .NET Core 8.0 e utilizando o Entity Framework Core para persistência de dados.
 
 🚀 Como Rodar o Projeto Localmente
@@ -10,10 +11,10 @@ Visual Studio ou Visual Studio Code para desenvolvimento local.
 1️⃣ Clone o Repositório
 Clone o repositório para sua máquina local com o seguinte comando:
 
-bash
-Copiar
-Editar
-git clone https://github.com/pimentazil/WebApiCoordly.git
+**Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/WebApiCoordly.git
+
 2️⃣ Abra o Projeto
 Abra a pasta do projeto no Visual Studio ou Visual Studio Code.
 
