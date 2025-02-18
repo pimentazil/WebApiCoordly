@@ -26,7 +26,8 @@ Clone o repositório do projeto utilizando o comando git:
 ### 2️⃣ Aplicar as Migrações e Criar o Banco de Dados
 
 Após clonar o repositório, navegue até a pasta do projeto e aplique as migrações para criar o banco de dados:
-    dotnet ef database update --project WebApiCoordly.Infrastructure --startup-project WebApiCoordly.Api
+
+`dotnet ef database update --project WebApiCoordly.Infrastructure --startup-project WebApiCoordly.Api`
 
 3️⃣ Rodar a API Localmente
 Com as migrações aplicadas, inicie o servidor localmente utilizando o seguinte comando:
