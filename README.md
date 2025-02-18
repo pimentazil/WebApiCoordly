@@ -1,4 +1,4 @@
-#API de Gerenciamento de Produtos
+API de Gerenciamento de Produtos
 
 Uma API simples para gerenciamento de produtos, com operações CRUD (Criar, Ler, Atualizar e Deletar). Desenvolvida com .NET Core 8.0 e utilizando o Entity Framework Core para persistência de dados.
 
