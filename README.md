@@ -20,6 +20,7 @@ Antes de rodar a API localmente, verifique se você possui as seguintes dependê
 
 ### 1️⃣ Clone o Repositório
 Clone o repositório do projeto utilizando o comando git:
+
 `git clone https://github.com/pimentazil/WebApiCoordly.git`
 
 ### 2️⃣ Aplicar as Migrações e Criar o Banco de Dados
