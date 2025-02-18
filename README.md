@@ -12,7 +12,6 @@ Visual Studio ou Visual Studio Code para desenvolvimento local.
 Clone o repositório para sua máquina local com o seguinte comando:
 
 **Clone o repositório**:
-   ```bash
    git clone https://github.com/seu-usuario/WebApiCoordly.git
 
 2️⃣ Abra o Projeto
