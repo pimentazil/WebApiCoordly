@@ -14,7 +14,7 @@ Visual Studio ou Visual Studio Code para desenvolvimento local.
 🔧 Passos para Rodar o Projeto
 
 1️⃣ Clone o Repositório
-   git clone https://github.com/seu-usuario/WebApiCoordly.git
+   git clone https://github.com/pimentazil/WebApiCoordly.git
 
 2️⃣ Aplicar as Migrações e Criar o Banco de Dados
 
