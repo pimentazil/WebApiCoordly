@@ -20,6 +20,14 @@ Antes de rodar a API localmente, verifique se você possui as seguintes dependê
 
 ### 1️⃣ Clone o Repositório
 Clone o repositório do projeto utilizando o comando git:
+`git clone https://github.com/pimentazil/WebApiCoordly.git`
 
-```bash
-git clone https://github.com/pimentazil/WebApiCoordly.git
+### 2️⃣ Aplicar as Migrações e Criar o Banco de Dados
+
+Após clonar o repositório, navegue até a pasta do projeto e aplique as migrações para criar o banco de dados:
+    dotnet ef database update --project WebApiCoordly.Infrastructure --startup-project WebApiCoordly.Api
+
+3️⃣ Rodar a API Localmente
+Com as migrações aplicadas, inicie o servidor localmente utilizando o seguinte comando:
+
+dotnet run
