@@ -16,5 +16,4 @@ Esta é uma API simples para gerenciamento de produtos, com operações CRUD (Cr
    Clone este repositório para sua máquina local usando o seguinte comando:
 
    ```bash
-   
-https://github.com/pimentazil/WebApiCoordly.git
+   https://github.com/pimentazil/WebApiCoordly.git
