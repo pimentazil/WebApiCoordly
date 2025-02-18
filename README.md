@@ -1,27 +1,25 @@
-API de Gerenciamento de Produtos
+# API de Gerenciamento de Produtos
 
-Uma API simples para gerenciamento de produtos, com operações CRUD (Criar, Ler, Atualizar e Deletar). Desenvolvida com .NET Core 8.0 e utilizando o Entity Framework Core para persistência de dados.
+Uma API RESTful desenvolvida em .NET Core 8.0, utilizando o Entity Framework Core para persistência de dados. Esta API permite realizar operações CRUD (Criar, Ler, Atualizar e Deletar) sobre produtos.
 
-🚀 Como Rodar o Projeto Localmente
+## 🛠 Tecnologias Utilizadas
+- **.NET Core 8.0**
+- **Entity Framework Core** para acesso e manipulação de dados
+- **SQL Server** (ou outro banco de dados de sua escolha)
+  
+## 📝 Pré-requisitos
+Antes de rodar a API localmente, verifique se você possui as seguintes dependências instaladas:
 
-📋 Requisitos
-SQL Server Local ou outro banco de dados de sua escolha (pode usar SQL Server LocalDB ou uma instância do SQL Server).
+- **SQL Server Local ou Instância Remota**: O banco de dados pode ser o SQL Server LocalDB ou uma instância de SQL Server de sua escolha.
+- **Visual Studio** ou **Visual Studio Code** para desenvolvimento local.
+- **.NET SDK**: Certifique-se de que o .NET SDK esteja instalado em sua máquina. Você pode baixar a versão mais recente do SDK em [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download).
 
-Visual Studio ou Visual Studio Code para desenvolvimento local.
+## 🚀 Como Rodar o Projeto Localmente
 
-.NET SDK instalado na sua máquina para compilar e rodar o projeto.
+### Passos:
 
-🔧 Passos para Rodar o Projeto
+### 1️⃣ Clone o Repositório
+Clone o repositório do projeto utilizando o comando git:
 
-1️⃣ Clone o Repositório
-   git clone https://github.com/pimentazil/WebApiCoordly.git
-
-2️⃣ Aplicar as Migrações e Criar o Banco de Dados
-
-dotnet ef database update --project WebApiCoordly.Infrastructure --startup-project WebApiCoordly.Api
-
-5️⃣ Rodar a API Localmente
-
-Depois de aplicar as migrações, inicie o servidor localmente com:
-
-dotnet run
+```bash
+git clone https://github.com/pimentazil/WebApiCoordly.git
